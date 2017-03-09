@@ -1,0 +1,64 @@
+@font-face {
+    font-family: mariofont;
+    src: url(supper-mario.ttf);
+}
+
+* {
+    color: red;
+}
+
+.clear{
+    clear: both;
+}
+
+.first-bar {
+    background-color: yellow;
+    height: 80px;
+}
+
+#head {
+    font-size: 3.2em;
+    font-family: mariofont;
+}
+
+.heading {
+    font-size: 3.2em;
+    font-family: mariofont;
+    text-align: center;
+}
+
+
+.second-bar{
+    background-color: red;
+    height: 300px;
+}
+
+.circle {
+    margin-top: 15px;
+}
+
+.image {
+    text-align: center;
+}
+
+#about-info {
+    font-family: arial;
+    font-weight: bold;
+}
+
+.third-bar {
+    background-color: white;
+    height: 200px;
+}
+
+.fourth-bar {
+    background-color: yellow;
+}
+
+#footer-image {
+    float: right;
+}
+
+.paragraph {
+    text-align: center;
+}

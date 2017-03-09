@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>forms exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="form">
+        <div class="row">
+            <div id="name">
+                First name<input name="fname" type="text">
+            </div>
+            <div id="name">
+                Last name<input name="lname" type="text">
+            </div>
+
+            <div id="age">
+                Age<input name="age" type="text">
+            </div>
+            <div>
+                Gender: <input name="gender" type="radio" value="Male">M <input name="gender" type="radio" value="female">F <input name="gender" type="radio" value="others">Other
+            </div>
+            <div name="location">
+                Location: 
+                <select name="pickALocation">
+                    <option>select a location</option>
+                    <option name="country" value="Hawaii">Hawaii</option>
+                    <option name="country" value="New York">New York</option>
+                    <option name="country" value="Utah">Utah</option>
+                </select>
+            </div>
+            <div>
+                Dietary restrictions: 
+                <input name="food" type="checkbox" value="vegetarian" id="vegetarian">vegetarian 
+                <input name="food" type="checkbox" value="kosher">Kosher
+                <input name="food" type="checkbox" value="lactosefree">lactose free
+            </div>
+        </div>
+        <button type='button' id="submit">Submit Form</button>
+    </form>
+    
+    
+    <script src="app.js"></script>
+</body>
+
+
+</html>

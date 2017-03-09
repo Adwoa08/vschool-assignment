@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mario Pest Control</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div id="top">
+        <div id="banner">
+            <h1>Mario Pest Control</h1>
+            <p>~you one time pest solution!</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+
+    <section>
+        <div id="goombas" class="baddies">
+            <img class="badimages" src="http://vignette3.wikia.nocookie.net/nintendo/images/d/d5/GoombaNSMB.png/revision/latest?cb=20110724131649&path-prefix=en" class="img-responsive img-thumbnail">
+            <p class="names">Goombas</p>
+            <form>
+                <p>Unit Price: 5 Coins</p>
+                <p>Total Caught:
+                    <input id="quantity1" type="number" min="1.00" step="1.00" max="100000" width="10px">
+                    <button type="submit">Submit</button>
+                </p>
+                <p id="amount1">Total Price $:<span id="goombas"></span> </p>
+            </form>
+
+        </div>
+        <div id="bob-ombs" class="baddies">
+            <img class="badimages" src="http://www.officialpsds.com/images/thumbs/Bomb-Omb-psd67966.png" class="img-responsive img-thumbnail">
+            <p class="names">bob-ombs</p>
+            <form>
+                <p>Unit Price: 7 Coins</p>
+                <p>Total Caught:
+                    <input id="quantity2" type="number" min="1.00" step="1.00" max="100000" width="10px">
+                    <button type="submit">Submit</button>
+                </p>
+                <p id="amount2">Total Price $:<span id="bobPrice"></span> </p>
+            </form>
+        </div>
+        <div id="cheep-cheeps" class="baddies">
+            <img class="badimages" src="http://vignette3.wikia.nocookie.net/fantendo/images/8/80/Bleep-Cheep.PNG/revision/latest?cb=20100419183055" class="img-responsive img-thumbnail">
+            <p class="names">cheep-cheeps</p>
+            <form>
+                <p>Unit Price: 11 Coins</p>
+                <p>Total Caught:
+                    <input id="quantity3" type="number" min="1.00" step="1.00" max="100000" width="10px">
+                    <button type="submit">Submit</button>
+                </p>
+                <p id="amount3">Total Price $:<span id="cheepPrice"></span> </p>
+            </form>
+        </div>
+        <div id="overAll">
+            <p>Total Price for baddies caught $:<span id="overAllTotal"></span> </p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

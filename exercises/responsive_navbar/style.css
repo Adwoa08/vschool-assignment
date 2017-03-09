@@ -1,0 +1,57 @@
+/*&#9776; it is the unicode to get the toggle icon(like armbugger... unsplash.com gets you backgrounds... when you use vh in measurement it means view height.*/
+* {
+    margin: 0px;
+}
+
+
+.container {
+    background-image: url("./image/pie.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.social {
+    height: 30px;
+    float: right;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.mobile-view span {
+    font-size: 2em;
+}
+nav.desktop-view ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.banner {
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+    padding-top: 200px;
+}
+
+@media screen and (max-width: 875px) {
+    nav.desktop-view ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    nav.mobile-view {
+        display: block;
+        padding: 10px;
+        
+    }
+}
+

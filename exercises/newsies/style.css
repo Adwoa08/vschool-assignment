@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+.random {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    margin-left: 5px;
+    padding-top:0px;
+}
+
+#main {
+    display: block;
+    margin: auto;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#insider {
+    float: left;
+    padding: 5px;
+}
+
+/**/
