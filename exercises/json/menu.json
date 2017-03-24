@@ -1,0 +1,22 @@
+{
+    "Appetizers": [],
+    "Cold sandwiches": [
+        {
+            
+        }
+    ],
+    "hot sandwiches": [],
+    "deserts": [],
+    "drinks": [
+        {
+        "name": "Regular Coke",
+         "ingredients": ["saturated fat", "sodium"],
+         "description": "refrigerated coke"
+        },
+        {
+            "name": "Diet Coke",
+            "ingredients": ["fat", "carbohydrate"],
+            "description": "refrigerated coke"
+        }
+    ]
+}
