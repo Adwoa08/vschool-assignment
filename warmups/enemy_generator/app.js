@@ -82,18 +82,6 @@ function randomType(){
 }
 
 
-
-
-//function points(){
-//    if(ranPoints > 80 && ranPoints < 100){
-//        return "hitPoints is: " + ranPoints;
-//    } else if(ranPoints < 80 && ranPoints > 50){
-//        return "hitPoints is: " + ranPoints;
-//    }  else if(ranPoints < 50 && ranPoints > 20){
-//        return "hitPoints is: " + ranPoints;
-//    }
-//}
-
 //Defines my hitPoints at random
 function points(){
     
@@ -112,11 +100,6 @@ var numberOfPoints = points();
 function defenseby3(){
     return numberOfPoints * 3;
 }
-
-
-
-//enemy list
-
 
 
 var enemyList = [];
