@@ -6,19 +6,24 @@
 
 
 
-function findUniques(arrayOne, arrayTwo){
+function findUniques(arrOne, arrTwo) {
     var returnedArr = [];
-    var newArr = arrayOne.concat(arrayTwo);
-    newArr.sort(function(a,b){
-        return a-b;
+    var newArr = arrOne.concat(arrTwo);
+    newArr.sort(function (a, b) {
+        return a - b;
     })
-    for(var i = 0; i < newArr.length; i++){
-        if(newArr[i] === newArr[i + 1] ||)
+    for (var i = 0; i < newArr.length; i++) {
+        if (newArr[i] == newArr[i + 1] || newArr[i] == newArr[i - 1]) {
+        } else { 
+            returnedArr.push(newArr[i]);
+        }
     }
-    
+    return returnedArr;
 }
 
-findUniques([1, 2, 5], [1, 2, 8, 9, 10]);
+
+console.log(findUniques([1, 2, 5], [1, 2, 8, 9, 10]));
+
 //console.log(findUniques([1, 2, 5], [1, 2, 8, 9, 10]));  // [5, 8, 9, 10] 
 //        Array.prototype.myFilter = function (callback) {  
 //  var array = this;
