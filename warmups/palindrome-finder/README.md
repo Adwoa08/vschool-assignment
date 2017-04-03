@@ -1,0 +1,1 @@
+As a warmup exercise at VSchool, I created this function that checks through a string and returns true if the string is a palindrome.

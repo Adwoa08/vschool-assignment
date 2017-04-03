@@ -1,0 +1,31 @@
+.first-box {
+    background-color: #F5C6D6;
+    height: 50px;
+    border: 5px solid white;
+}
+
+.four-boxes {
+    background-color: #EE2E84;
+    height: 50px;
+    border: 5px solid white;
+}
+
+.two-boxes {
+    background-color: #85CFD8;
+    height: 50px;
+    border: 5px solid white;
+}
+
+.big-box {
+    background-color: #E76E34;
+    height: 50px;
+    border: 5px solid white;
+}
+
+.bigger-box {
+    background-color: #8DC63F;
+    height: 50px;
+    border: 5px solid white;
+}
+
+

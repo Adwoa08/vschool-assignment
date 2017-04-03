@@ -19,17 +19,11 @@
 //
 //console.log(findWords('cat'));
 //
-var dictionary = {};
 
+var readlinesync = require("readline-sync");
 
-var Dictionary(word, definition){
-    this.word = word;
-    this.definition = definition;
-};
+var word = readlinesync.question("What is ");
 
-function addword(word, definition){
-    word = word.toLowerCase();
-    var newWord = new Dictionary(word, definition);
+var dictionary = {
+    dog: "mans best friend"; 
 }
-
-console.log()

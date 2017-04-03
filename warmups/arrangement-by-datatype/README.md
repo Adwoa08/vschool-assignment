@@ -1,0 +1,2 @@
+This is a VSchool warmup exercise done on March 28, 2017.
+I wrote a function that grouped data into it specified datatype. I used 'typeof' method in sorting the data. The 'typeof' method considers both arrays and objects as objects so I had to use 'instanceof' to sort out the arrays before sorting out the objects in the data.
