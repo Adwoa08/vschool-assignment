@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/*
+img {
+    max-width: 200px;
+}
+*/
+
+header .navbar-default {
+    background-color: transparent;
+    border: 0;
+}
+
+header .navbar .navbar-collapse {
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 80px;
+}
+
+.slider {
+    width: 100%;
+}
+
+
+/*Pink bar under the carousel*/
+
+.pink-bar {
+    width: 100%;
+    height: 60px;
+    background-color: #FEE7DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*This is the styling for the left column*/
+
+
+.related {
+    overflow: hidden;
+    text-align: center;
+}
+
+.related:before,
+.related:after {
+    background-color: #C1C1C1;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.related:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.related:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+/*related section*/
+
+.date {
+    overflow: hidden;
+    text-align: center;
+}
+
+.date:before,
+.date:after {
+    background-color: #C1C1C1;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.date:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.date:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #C1C1C1;
+    margin: 1em 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+
+/*horizontal line styling ends here*/
+
+.boldtext-below-date {
+    font-size: 2.3em;
+}
+
+.boldtext-below-date a {
+    color: black;
+    text-decoration: none;
+}
+
+.boldtext-below-date a:hover {
+    color: #F3C3AC;
+}
+
+.beauty {
+    text-align: center;
+}
+
+.smashbox {
+    width: 100%;
+}
+
+.readmore {
+    font-size: 1.4em;
+    color: #999;
+}
+
+.readmore-a {
+    display: block;
+    padding: 8px 0;
+    border: 0.00001px solid #999;
+    color: #999;
+}
+
+.readmore-a:hover {
+    background-color: #9B9B9B;
+    text-decoration: none;
+}
+
+.banner-social-buttons {
+    list-style: none;
+}
+
+.banner-social-buttons li {
+    display: inline-block;
+}
+
+
+/*styling for social media buttons*/
+
+.fa {
+    font-size: 35px;
+    color: #F3C3AC;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    right: 25px;
+}
+
+.fa-facebook {
+    color: white;
+    background: #F3C3AC;
+    font-size: 30px;
+    padding: 2px 8px 0 8px;
+    border-radius: 5px;
+}
+
+
+/*Related section styling*/
+
+p>b {
+    font-size: 20px;
+    font-style: serif;
+    letter-spacing: 5px;
+}
+
+.related-hr {
+    position: relative;
+    top: -8px;
+}
+
+.date-hr-left {
+    position: relative;
+    top: -10px;
+    left: 20px
+}
+
+.date-hr-right {
+    position: relative;
+    top: -10px;
+    right: 30px
+}
+
+i>a {
+    text-decoration: none;
+    color: #919191;
+}
+
+i>a:hover {
+    text-decoration: none;
+    color: #F3C3AC;
+}
+
+
+/*This the right styling*/
+
+.follow {
+    margin: 8px;
+    border: 1px solid silver;
+    padding: 20px;    
+    border-radius: 4px;
+}
+
+
+.follow li {
+    list-style: none;
+}
+
+.icon:hover {
+    color: #F3C3AC;
+}
+
+.legend{
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    margin: 0 5px;
+    z-index: 100;
+    padding: 0 5px;
+    background-color: white;
+}
+
+.icon {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    bottom: 20px
+}
+
+
+footer {
+    background-color: black;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+p>span {
+    font-style: italic;
+}
+
+span>a {
+    color: white;
+    text-decoration: underline;
+}
+
+.left-side-footer {
+    position: relative;
+    top: 3px;
+}
