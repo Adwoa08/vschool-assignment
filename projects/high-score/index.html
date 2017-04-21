@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>High School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="forms">
+        <div class="form-list">
+            Name: <input id="user-name" type="text" name="user-name">
+        </div>
+        <div class="form-list">
+            Game: <input id="game" type="text" name="user-game">
+        </div>
+        <div class="form-list">
+            Date Of High Score: <input type="date" name="user-date" id="date">
+        </div>
+        <div class="form-list">
+            High Score: <input type="integer" id="user-score">
+        </div>
+        <div class="form-list">
+            Wanna Submit Trash Talk?: <input type="checkbox" id="trash" name="trash-talk" value="Yes">
+        </div>
+        <button type="button" id="submit">Submit Score</button>
+    </form>
+
+    <table id="tables" align="center">
+       <tr>
+           <td colspan="5" id="table-header"><h1>Highest Score Table</h1></td>
+       </tr>
+        <tr>
+            <th>Names</th>
+            <th>Games</th>
+            <th>Date of High Score</th>
+            <th>High Score</th>
+            <th>Trash Talk</th>
+        </tr>
+        
+    </table>
+
+    <!--Footer Starts    -->
+    <!--
+<footer>
+    <div class="footer-social-media-icons">
+        <img class="footer-img" src="images/facebook.svg">
+    </div>
+</footer>
+-->
+    <!--JQuery Starts here-->
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+    <!--JQuery Ends here-->
+    <script src="app.js"></script>
+</body>
+</html>

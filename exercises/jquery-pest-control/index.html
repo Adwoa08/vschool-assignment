@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mario Pest Control</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="day night">
+    <div class="container-fluid">
+        <div id="top">
+            <div id="banner">
+                <h1>Mario Pest Control</h1>
+                <p>~you one time pest solution!</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <header class="container-fluid">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand active" href="index.html" id="brandName">MP Control</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavigation">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="page2.html">Get free quote</a></li>
+                            <li><a href="#">ContactUs</a></li>
+                            <li><a href="#">Locations</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="clear"></div>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="baddies">
+                            <img class="badimages" src="http://vignette3.wikia.nocookie.net/nintendo/images/d/d5/GoombaNSMB.png/revision/latest?cb=20110724131649&path-prefix=en" class="img-responsive img-thumbnail" width="190px">
+                            <p class="names">Goombas</p>
+                            <form>
+                                <p>Unit Price: 5 Coins</p>
+                                <p>Total Caught:
+                                    <input id="quantity1" type="number" min="1.00" step="1.00" max="100000" width="10px">
+                                    <button type="button" id="submit1">Submit</button>
+                                </p>
+                                <p id="amount1">Total Price $: <span id="goombas"></span> </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div id="bob-ombs" class="baddies">
+                            <img class="badimages" src="http://www.officialpsds.com/images/thumbs/Bomb-Omb-psd67966.png" class="img-responsive img-thumbnail" width="190px">
+                            <p class="names">bob-ombs</p>
+                            <form>
+                                <p>Unit Price: 7 Coins</p>
+                                <p>Total Caught:
+                                    <input id="quantity2" type="number" min="1.00" step="1.00" max="100000" width="10px">
+                                    <button id="submit2" type="button">Submit</button>
+                                </p>
+                                <p id="amount2">Total Price $: <span id="bobPrice"></span> </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 cheep-cheep">
+                        <div id="cheep-cheeps" class="baddies">
+                            <div id="cheepDiv">
+                                <img class="badimages" src="http://vignette3.wikia.nocookie.net/fantendo/images/8/80/Bleep-Cheep.PNG/revision/latest?cb=20100419183055" class="img-responsive img-thumbnail" width="190px">
+                            </div>
+                            <p class="names">cheep-cheeps</p>
+                            <form>
+                                <p>Unit Price: 11 Coins</p>
+                                <p>Total Caught:
+                                    <input id="quantity3" type="number" min="1.00" step="1.00" max="100000" width="10px">
+                                    <button id="submit3" type="button">Submit</button>
+                                </p>
+                                <p id="amount3">Total Price $: <span id="cheepPrice"></span> </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="row total-div-button">
+                    <button type="button" id="over-all-button">Get Overall Total</button>
+                </div>
+                <div class="row total-div"></div>
+                </div>
+        </section>
+        <div class="clear"></div>
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+                <button type="button" id="night-mode">Night Mode</button>
+            </div>
+            
+        </div>
+    
+   
+    </div>
+    
+     <audio id="sound" src="Mario-coin-sound.mp3"></audio>
+   
+   
+   
+   
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="japp.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#tables {
+    margin: auto;
+    margin-top: 100px;
+    
+    border: 1px solid black;
+}
+
+
+#tables, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    opacity: 0.9;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: crimson;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+#table-header {
+    background-color: darkkhaki
+}
+
+body {
+    background-image: url(images/soccer-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    position: relative;
+}
+
+
+#forms {
+    margin-top: 100px;
+/*    color: white;*/
+    background-color: whitesmoke;
+    padding: 20px;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+.form-list {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer-social-media-icons {
+    height: 400px;
+    width: 100%;
+   display: flex;
+    vertical-align: bo;
+}
+.footer-img {
+    width: 40px;
+}*/
