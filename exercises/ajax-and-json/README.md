@@ -1,0 +1,1 @@
+This is an example of api call  using ajax.
