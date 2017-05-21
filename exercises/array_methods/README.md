@@ -1,0 +1,1 @@
+This is to show how array methods can be used to get specified items or data in an array. 
